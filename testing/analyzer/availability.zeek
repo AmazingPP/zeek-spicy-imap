@@ -1,3 +1,3 @@
-# @TEST-EXEC: zeek -NN | grep -qi ANALYZER_SPICY_@NAME@
+# @TEST-EXEC: zeek -NN | grep -qi ANALYZER_SPICY_IMAP
 #
-# @TEST-DOC: Check that the @NAME@ analyzer is available.
+# @TEST-DOC: Check that IMAP analyzer is available.

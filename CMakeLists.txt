@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15 FATAL_ERROR)
 
-project(@name@ LANGUAGES C)
+project(Spicy_IMAP LANGUAGES C)
 
 list(PREPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
 find_package(SpicyPlugin REQUIRED)

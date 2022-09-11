@@ -1,7 +1,1 @@
-# TODO: Define your analyzers here.
-
-module @ns@;
-
-public type @name@ = unit {
-    payload: bytes &eod;
-};
+module IMAP;

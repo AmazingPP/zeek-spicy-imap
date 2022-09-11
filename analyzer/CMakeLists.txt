@@ -1,5 +1,5 @@
 spicy_add_analyzer(
-    NAME @name@
-    PACKAGE_NAME @name@
+    NAME IMAP
+    PACKAGE_NAME IMAP
     SOURCES analyzer.spicy analyzer.evt zeek_analyzer.spicy
-    SCRIPTS __load__.zeek main.zeek dpd.sig)
+    SCRIPTS __load__.zeek main.zeek)
